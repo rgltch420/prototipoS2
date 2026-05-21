@@ -1,0 +1,26 @@
+{
+  "name": "prototipos2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgltch420/prototipoS2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rgltch420/prototipoS2/issues"
+  },
+  "homepage": "https://github.com/rgltch420/prototipoS2#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
