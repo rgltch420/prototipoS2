@@ -1,26 +1,18 @@
 {
   "name": "prototipos2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rgltch420/prototipoS2.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/rgltch420/prototipoS2/issues"
-  },
-  "homepage": "https://github.com/rgltch420/prototipoS2#readme",
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "vite": "^8.0.12"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.0",
+    "tailwindcss": "^4.3.0"
   }
 }
