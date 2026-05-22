@@ -8,12 +8,28 @@
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="src/style.css" />
 </head>
-<body class="bg-base text-text-primary font-body min-h-screen overflow-hidden text-[16px]">
- <div id="app">
 
-    <header  class="header">
-      <div class="header-inner">
-        <div class="logo">
+
+<!-- lo que hay en ese body es como hacer esto
+body {
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  /* Subtle grid texture */
+  background-image:
+    linear-gradient(rgba(255,77,28,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,77,28,0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+} -->
+<body class="bg-base text-text-primary font-body min-h-screen overflow-hidden text-[16px] bg-size-[40px, 40px] bg-[linear-gradient(rgba(255,77,28,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,77,28,0.03)_1px,transparent_1px)]">
+
+ <div id="app">
+    <header  class="border-b-2 border-bborder bg-header backdrop-blur-md sticky top-0 z-100" >
+      <div class="max-w-[1400px] m-[0 auto] p-(0 32px) h-(60px) flex items-center justify-between">
+        <div class="flex items-center gap-[10px]">
           <span class="logo-icon">⬡</span>
           <span class="logo-text">PROTOTYPE<span class="logo-accent">2AI</span></span>
         </div>
